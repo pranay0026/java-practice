@@ -1,0 +1,8 @@
+There are three types of interface
+
+1)Normal which consists of multiple methods(>=2) in the interface
+2)Functional (SAM)->Single Abstract Method consists on emethod in the interface
+3)Marker which consists of no methods
+
+
+Functional Interface

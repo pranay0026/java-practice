@@ -1,0 +1,19 @@
+Types of Errors:
+1)Compile Time Error(syntax errors)
+2)Logical Error(bugs)
+3)Runtime Error 
+
+					Object class(Top class is every java code)
+				
+					Throwable(class)
+					
+			Error						Expection
+	->we can't handle errors				->we can handle exceptions
+	ex:ThreadDeath,IOError				ex:RunTime Exception(Arithematic,ArrayIndex,NullPointer(there are unchecked exception)
+	OutOfMemory							ex:SqlException(Checked Exception)
+	
+	
+Keywords :
+throw and throws 
+					
+											
