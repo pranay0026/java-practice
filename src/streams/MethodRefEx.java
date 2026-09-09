@@ -1,5 +1,6 @@
 package streams;
 
+import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.List;
 
@@ -13,8 +14,9 @@ public class MethodRefEx {
 		**/
 		List<String> names=Arrays.asList("Pranay","Ammu","Phani");
 		List<String> uNames=names.stream()
-				.map(String::toUpperCase)
+				.map(String::toUpperCase) //which class the method belongs to should be mentioned
 				.toList();
 		System.out.println(uNames);
+		uNames.forEach(System.out::println);
 	}
 }
