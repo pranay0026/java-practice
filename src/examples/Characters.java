@@ -7,5 +7,7 @@ public class Characters {
 		System.out.println(++b); //unicode 
 		System.out.println("Java \"Is Fun\"");
 		System.out.println("Java \" is funny\"");
+		String s="Fun"+2; //becomes Fun2
+		System.out.println(s);
 	}
 }
